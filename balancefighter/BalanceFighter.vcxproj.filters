@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{a45bbafc-4acc-43fe-ba03-f9e695e6a89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameModules">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Structs and Enums">
+      <UniqueIdentifier>{a81f8a84-0636-4625-92e4-06116db47176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BalanceFighterApp.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CServices.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CXInput.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="CLobby.cpp">
+      <Filter>GameModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="EMovments.h">
+      <Filter>Structs and Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="EActions.h">
+      <Filter>Structs and Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceFighterApp.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="CServices.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="CXInput.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelVertex.h">
+      <Filter>Structs and Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Structs and Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>GameModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\levelFX.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Shaders\playerFX.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
